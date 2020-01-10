@@ -1,6 +1,6 @@
-FROM alpine:3.9
+FROM alpine:3.11
 
-ENV TERRAFORM_DOCS_VERSION="v0.6.0"
+ENV TERRAFORM_DOCS_VERSION="v0.7.0"
 
 ARG BUILD_DATE
 ARG VCS_REF
@@ -19,7 +19,7 @@ ENTRYPOINT ["terraform-docs"]
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="terraform_docs" \
       "org.label-schema.base-image.name"="docker.io/library/alpine" \
-      "org.label-schema.base-image.version"="3.9" \
+      "org.label-schema.base-image.version"="3.11" \
       "org.label-schema.description"="Terrform docs in a container" \
       "org.label-schema.url"="https://www.terraform.io" \
       "org.label-schema.vcs-url"="https://scm.dazzlingwrench.fxinnovation.com/fxinnovation-public/docker-terraform-docs" \
