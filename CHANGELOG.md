@@ -4,6 +4,7 @@
 
   * chore: pins terraform-docs to v0.15.0
   * chore: pins alpine base image to 3.14.1
+  * chore: add .pre-commit-config file
 
 0.4.1 / 2020-04-03
 ==================
